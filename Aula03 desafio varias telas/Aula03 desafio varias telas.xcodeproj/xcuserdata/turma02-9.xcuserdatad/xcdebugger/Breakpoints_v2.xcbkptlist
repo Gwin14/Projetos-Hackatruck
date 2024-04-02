@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FF6D15A0-DF86-4949-B4E5-62FF8431E1CB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9FF9FBC-32A4-4572-8A30-6787E7E4B2A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../var/folders/sn/blm0mg855vl6s0xzbmnp4_140000gq/T/swift-generated-sources/@__swiftmacro_27Aula03_desafio_varias_telas33_FF0CCF35F481FB11B1910ED98C173F65Ll7PreviewfMf0_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "$s27Aula03_desafio_varias_telas33_FF0CCF35F481FB11B1910ED98C173F65Ll7PreviewfMf0_15PreviewRegistryfMu_"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,29 +1,31 @@
-//
-//  Tela4.swift
-//  Aula03 desafio varias telas
-//
-//  Created by Turma02-9 on 02/04/24.
-//
-
 import SwiftUI
 
 struct Tela4: View {
+    
+    @Binding var nome: String
+    
     var body: some View {
-        Text("Meu sonho")
-            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-        
-        Spacer()
-        
-        Text("Ser cantor")
-            .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-            .frame(width: 180.0, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-            .background(.blue)
-            .cornerRadius(10)
-        
-        Spacer()
+        VStack {
+            Text("Meu sonho")
+                .font(.title)
+            
+            Spacer()
+            
+            Text("Ser cantor")
+                .font(.largeTitle)
+                .frame(width: 180.0, height: 100)
+                .background(Color.blue)
+                .cornerRadius(10)
+            
+            Spacer()
+            
+            Text("Vou te caçar \(nome)")
+        }
     }
 }
 
-#Preview {
-    Tela4()
+struct Tela4_Previews: PreviewProvider {
+    static var previews: some View {
+        Tela4(nome: .constant(""))
+    }
 }
