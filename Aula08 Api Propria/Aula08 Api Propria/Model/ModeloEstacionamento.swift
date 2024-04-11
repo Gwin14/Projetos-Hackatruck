@@ -10,12 +10,12 @@ import Foundation
 struct Estacio: Codable, Identifiable{
     var id = UUID()
     
-    let nomeEstacionamento: String
-    let quantidadeVagas: Int
-    let carros: [Carros]
+    let nomeEstacionamento: String?
+    let quantidadeVagas: Int?
+    let carros: [Carros]?
 }
 
-struct Carros: Codable{
+struct Carros: Codable, Hashable{
     let modelo: String
     let ano : Int
     let cor: String
