@@ -5,10 +5,38 @@ struct ContentView: View {
     
     @State private var showingAlert = false
     
+    @State private var quantidadeVagas = 01
+    
     var body: some View {
         TabView {
-            NavigationView {
+            VStack {
                 
+//                VStack {
+//                    Text("Quantidade de vagas")
+//                        .font(.title)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .foregroundColor(.white)
+//                        .cornerRadius(8)
+//                        .padding(.vertical, 4)
+//                    
+//                    TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, value: $quantidadeVagas, formatter: NumberFormatter())
+//                        .padding()
+//                    
+//                    Text("Carros")
+//                        .font(.title)
+//                        .padding()
+//                        .background(Color.blue)
+//                        .foregroundColor(.white)
+//                        .cornerRadius(8)
+//                        .padding(.vertical, 4)
+//                    
+//                    ForEach(0..<quantidadeVagas, id: \.self) { index in
+//                        TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+//                        
+//                    }
+//                }
+//                .padding()
                 
                 Button("Mandar") {
                     viewModel.postRequest()
