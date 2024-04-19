@@ -12,7 +12,7 @@ struct TelaInicial: View {
                 .ignoresSafeArea()
                 .frame(height: 380)
             
-            Text("CrowdThink")
+            Text("Devs for Devs")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundStyle(Color("CorPrincipal"))

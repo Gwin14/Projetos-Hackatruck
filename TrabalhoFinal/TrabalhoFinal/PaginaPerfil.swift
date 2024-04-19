@@ -3,7 +3,9 @@ import SwiftUI
 
 struct PaginaPerfil: View {
     
-    //name, username, email
+    @State private var name = "Receba"
+    @State private var username = "da silva"
+    @State private var email = "dev@lindo"
     
     var body: some View {
         
