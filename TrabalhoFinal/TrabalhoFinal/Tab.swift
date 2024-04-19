@@ -20,7 +20,7 @@ struct Tab: View {
                     Text("Jobs")
                 }.tag(1)
             
-            Text("Adicionar")
+            ContentView()
                 .tabItem {
                     Image(systemName: "plus.circle")
                     

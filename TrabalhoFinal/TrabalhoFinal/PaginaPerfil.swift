@@ -26,11 +26,12 @@ struct PaginaPerfil: View {
                     ProgressView()
                 }
                 
-                Text("Receba")
+                Text("\(name)")
                     .font(.title)
                     .fontWeight(.light)
                 
-                
+                Text("\(email)")
+                    .fontWeight(.light)
                 
                 HStack{
                     Spacer()
