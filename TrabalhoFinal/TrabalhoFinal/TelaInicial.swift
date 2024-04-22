@@ -11,7 +11,7 @@ struct TelaInicial: View {
                 .resizable()
                 .ignoresSafeArea()
                 .frame(height: 380)
-            
+
             Text("Devs for Devs")
                 .font(.largeTitle)
                 .fontWeight(.bold)
