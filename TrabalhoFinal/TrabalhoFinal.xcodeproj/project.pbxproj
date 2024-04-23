@@ -16,6 +16,7 @@
 		06F244172BD19574002EB366 /* Catalogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F244162BD19574002EB366 /* Catalogo.swift */; };
 		06F244192BD19A04002EB366 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F244182BD19A04002EB366 /* Tab.swift */; };
 		06F2441B2BD1A370002EB366 /* DesafioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F2441A2BD1A370002EB366 /* DesafioInfo.swift */; };
+		06F65BC42BD83367008E0D27 /* PostarDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F65BC32BD83367008E0D27 /* PostarDesafio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		06F244162BD19574002EB366 /* Catalogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalogo.swift; sourceTree = "<group>"; };
 		06F244182BD19A04002EB366 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		06F2441A2BD1A370002EB366 /* DesafioInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioInfo.swift; sourceTree = "<group>"; };
+		06F65BC32BD83367008E0D27 /* PostarDesafio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostarDesafio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				06F244162BD19574002EB366 /* Catalogo.swift */,
 				06F244182BD19A04002EB366 /* Tab.swift */,
 				06F2441A2BD1A370002EB366 /* DesafioInfo.swift */,
+				06F65BC32BD83367008E0D27 /* PostarDesafio.swift */,
 			);
 			path = TrabalhoFinal;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				06F244132BD1841F002EB366 /* TelaInicial.swift in Sources */,
 				06F244172BD19574002EB366 /* Catalogo.swift in Sources */,
+				06F65BC42BD83367008E0D27 /* PostarDesafio.swift in Sources */,
 				06F244052BD18395002EB366 /* ContentView.swift in Sources */,
 				06F244192BD19A04002EB366 /* Tab.swift in Sources */,
 				06F244032BD18395002EB366 /* TrabalhoFinalApp.swift in Sources */,
