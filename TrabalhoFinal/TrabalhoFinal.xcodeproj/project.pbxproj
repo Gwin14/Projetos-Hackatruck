@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0618FCC62BDAE97A00A312F3 /* Selected_challange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618FCC52BDAE97A00A312F3 /* Selected_challange.swift */; };
 		06F244032BD18395002EB366 /* TrabalhoFinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F244022BD18395002EB366 /* TrabalhoFinalApp.swift */; };
 		06F244052BD18395002EB366 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F244042BD18395002EB366 /* ContentView.swift */; };
 		06F244072BD18396002EB366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F244062BD18396002EB366 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0618FCC52BDAE97A00A312F3 /* Selected_challange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selected_challange.swift; sourceTree = "<group>"; };
 		06F243FF2BD18395002EB366 /* TrabalhoFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabalhoFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F244022BD18395002EB366 /* TrabalhoFinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabalhoFinalApp.swift; sourceTree = "<group>"; };
 		06F244042BD18395002EB366 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				06F244182BD19A04002EB366 /* Tab.swift */,
 				06F2441A2BD1A370002EB366 /* DesafioInfo.swift */,
 				06F65BC32BD83367008E0D27 /* PostarDesafio.swift */,
+				0618FCC52BDAE97A00A312F3 /* Selected_challange.swift */,
 			);
 			path = TrabalhoFinal;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				06F244172BD19574002EB366 /* Catalogo.swift in Sources */,
 				06F65BC42BD83367008E0D27 /* PostarDesafio.swift in Sources */,
 				06F244052BD18395002EB366 /* ContentView.swift in Sources */,
+				0618FCC62BDAE97A00A312F3 /* Selected_challange.swift in Sources */,
 				06F244192BD19A04002EB366 /* Tab.swift in Sources */,
 				06F244032BD18395002EB366 /* TrabalhoFinalApp.swift in Sources */,
 				06F2441B2BD1A370002EB366 /* DesafioInfo.swift in Sources */,
